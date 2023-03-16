@@ -1,0 +1,12 @@
+.box {
+  background-color: blueviolet;
+  color: aliceblue;
+  font-size: 24px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
