@@ -1,6 +1,5 @@
 body {
   font-family: quicksand;
-  text-align: center;
   background-color: aliceblue;
 }
 
@@ -23,6 +22,7 @@ h3 {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  text-align: center;
 }
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
@@ -44,6 +44,31 @@ h3 {
   text-transform: uppercase;
 }
 
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 64px;
+  grid-template-columns: 1fr 2fr 2fr;
+  background-color: #e2b2bc;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 48px;
@@ -57,11 +82,4 @@ h3 {
   .learn-button {
     margin-bottom: 15px;
   }
-}
-.container-footer {
-  max-width: 1150px;
-  margin: 0 auto;
-  border: 2px solid black;
-  border-radius: 10px;
-  padding: 20px;
 }
