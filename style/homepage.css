@@ -19,12 +19,6 @@ h3 {
   padding-top: 150px;
 }
 
-section {
-  background-color: aqua;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -44,21 +38,63 @@ section {
 .learn-button {
   text-align: center;
   background-color: white;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 20px 10px 10px;
   border-radius: 5px;
   text-decoration: none;
   text-transform: uppercase;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  padding-left: 50px;
+}
+
+section {
+  background-color: #e2b2bc;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  max-width: 1200px;
+  height: 200px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.7;
+  margin-right: 20px;
+}
+
 footer ul {
   padding: 0;
-  margin: 0;
 }
 
 footer li {
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: white;
+  opacity: 0.7;
+}
+
+.icons-container {
+  text-align: center;
+  padding: 20px;
 }
 
 @media (max-width: 800px) {
