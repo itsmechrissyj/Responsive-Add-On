@@ -77,14 +77,50 @@ main p {
 
 section {
   max-width: 1200px;
-  padding: 50px;
+  padding: 0px 0px 20px 0px;
+  margin-top: 20px;
 }
 
+section.secondary {
+  background-color: white;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0px 0px 20px 0px;
+  color: white;
+  text-align: center;
+}
+
+.learn-more-button {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+  font-family: quicksand;
+}
+
+.card {
+  background-color: gray;
+  border-radius: 10px;
+  margin-bottom: 80px;
+}
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
-  padding-left: 50px;
+  grid-gap: 20px;
 }
+.card-image {
+  max-width: 150px;
+  text-align: center;
+  margin: 23px;
+}
+
+.grid-3-columns {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-gap: 10px;
+  padding-left: 70px;
+}
+
 footer section {
   background-color: #e2b2bc;
   max-width: 1200px;
@@ -103,6 +139,7 @@ footer {
 footer h3 {
   font-weight: 700;
   font-size: 20px;
+  padding-left: 40px;
 }
 
 footer p {
@@ -110,10 +147,11 @@ footer p {
   font-size: 16px;
   opacity: 0.7;
   margin-right: 20px;
+  padding-left: 40px;
 }
 
 footer ul {
-  padding: 0;
+  padding-left: 40px;
 }
 
 footer li {
