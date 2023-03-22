@@ -170,6 +170,27 @@ footer a {
   padding: 20px;
 }
 
+.secondary h2 {
+  color: black;
+  padding-top: 20px;
+  padding-left: 70px;
+  text-align: left;
+}
+
+.secondary h3 {
+  color: black;
+  text-align: left;
+  padding-left: 70px;
+}
+
+.secondary h4 {
+  font-weight: bolder;
+}
+
+.secondary h5 {
+  font-weight: bolder;
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 48px;
