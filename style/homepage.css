@@ -1,6 +1,6 @@
 body {
   font-family: quicksand;
-  background-color: aliceblue;
+  background-color: rgb(179, 208, 233);
 }
 
 .header-h1 {
@@ -28,7 +28,6 @@ body {
   background-repeat: no-repeat;
   aspect-ratio: 21/9;
   max-width: 100%;
-  border-radius: 10px;
 }
 
 .learn-button {
@@ -49,6 +48,7 @@ img {
 
 .grid-2 {
   display: grid;
+  background-color: white;
   grid-template-columns: 1fr 1fr;
   max-width: 1200px;
   margin: 0 auto;
@@ -73,6 +73,11 @@ main p {
   text-align: left;
   padding-top: 20px;
   margin: 0;
+}
+
+section {
+  max-width: 1200px;
+  padding: 50px;
 }
 
 .grid {
@@ -139,5 +144,13 @@ footer a {
   }
   .learn-button {
     margin-bottom: 15px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32x;
+    text-align: center;
+  }
+  section {
+    padding: 30px;
   }
 }
