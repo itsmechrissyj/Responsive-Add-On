@@ -49,9 +49,8 @@ img {
 .grid-2 {
   display: grid;
   background-color: white;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   max-width: 1200px;
-  margin: 0 auto;
 }
 
 main h2 {
@@ -64,7 +63,7 @@ main h2 {
 main h3 {
   font-size: 20px;
   text-align: left;
-  padding-top: 20px;
+  padding-top: 100px;
   margin: 0;
 }
 
@@ -119,6 +118,12 @@ section.secondary {
   grid-template-columns: 300px 300px 300px;
   grid-gap: 10px;
   padding-left: 70px;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  padding: 50px 0px 10px 0px;
 }
 
 footer section {
@@ -189,6 +194,17 @@ footer a {
 
 .secondary h5 {
   font-weight: bolder;
+}
+
+.insta-gallery {
+  text-align: center;
+  font-size: 48px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.grid-3-columns-insta {
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
 }
 
 @media (max-width: 800px) {
