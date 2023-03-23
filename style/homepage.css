@@ -49,7 +49,7 @@ img {
 .grid-2 {
   display: grid;
   background-color: white;
-  grid-template-columns: 1fr 2fr;
+  padding-left: 250px;
   max-width: 1200px;
 }
 
